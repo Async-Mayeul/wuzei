@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+#points {
+  color: white;
+}
+
+#dollar {
+  color: white;
+}
+
+#tiret {
+  color: rgb(12, 100, 216);
+}
+
+body {
+  background-color: rgb(48, 10, 36);
+}
+
+label {
+  font-family: "Ubuntu Mono", sans-serif;
+  font-size: 1.2em;
+  color: #16E506;
+  margin: 0.1em;
+}
+
+input {
+  font-family: "Ubuntu Mono", sans-serif;
+  font-size: 1.1em;
+  font-weight: lighter;
+  color: white;
+  border: none;
+  width: 80%;
+  background-color: rgb(48, 10, 36);
+}
+
+input:focus {
+  outline: none;
+}
+
+.new {
+  font-family: "Ubuntu Mono", sans-serif;
+  font-size: 1.2em;
+  color: white;
+  margin-left: 1em;
+}
+
+.wuzei {
+  width: 80%;
+  margin-left: 0.3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: white;
+  font-family: "Ubuntu Mono", sans-serif;
+}
+
+.man p{
+  margin-left: 1em;
+}
+
+.man dl {
+  margin-left: 1em;
+}
+
+.man dd {
+  margin-left: 2em;
+}
