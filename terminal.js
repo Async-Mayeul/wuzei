@@ -23,7 +23,7 @@ function result(e) {
     } 
     else if ( (command.value === "wuzei --download") || (command.value === "wuzei -D") ) {
       const download = document.createElement('a');
-      download.href = "../test.txt";
+      download.href = "./htb.pdf";
       download.setAttribute("download", "htb.pdf");
       download.click();
     }
