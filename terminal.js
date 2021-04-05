@@ -24,7 +24,7 @@ function result(e) {
     else if ( (command.value === "wuzei --download") || (command.value === "wuzei -D") ) {
       const download = document.createElement('a');
       download.href = "../test.txt";
-      download.setAttribute("download", "test.txt");
+      download.setAttribute("download", "htb.pdf");
       download.click();
     }
     else if ( (command.value === "wuzei -s") || (command.value === "wuzei --skate") ) {
